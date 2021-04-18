@@ -1,0 +1,27 @@
+{
+  "name": "fmlw8",
+  "version": "0.0.0",
+  "description": null,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
